@@ -118,14 +118,14 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
             print("Bluetooth on!")
             setupService()
         case .poweredOff:
-            print("❌ Bluetooth가 꺼졌습니다.")
+            print("Bluetooth off!")
             peripheral.stopAdvertising()
         case .unauthorized:
-            print("⚠️ Bluetooth 권한이 거부되었습니다.")
+            print("Access denied.")
         case .unsupported:
-            print("🚫 이 기기는 BLE Peripheral을 지원하지 않습니다.")
+            print("BLE Peripheral unsupported device.")
         default:
-            print("Bluetooth 상태 알 수 없음: \(peripheral.state.rawValue)")
+            print("Unknown Bluetooth state: \(peripheral.state.rawValue)")
         }
     }
     
@@ -212,7 +212,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
                             // print(String(format: "Roll: %.2f°, Pitch: %.2f°, Yaw: %.2f°", roll, pitch, yaw))
                         }
                     }
-                    else { print("이 기기에서는 Device Motion을 사용할 수 없습니다.") }
+                    else { print("IMU unsupported device!") }
                 }
                 else {
                     command?[3] = 0
@@ -266,8 +266,8 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
 
                 if !self.peripheralManager.updateValue(dataToSend, for: self.transferCharacteristic, onSubscribedCentrals: nil) { print("Failed to send datas") }
                 if isModeUpdate {
-                    self.command?[0] = 0  // 0으로 초기화
-                    self.mode_flag = false // 플래그 리셋
+                    self.command?[0] = 0
+                    self.mode_flag = false
                 }
             }
     }

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A8232F512EC67FFE00CE0C28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A8232F502EC67FF700CE0C28 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A879202E2EC1E48E00ACBB51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8232F502EC67FF700CE0C28 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A87920172EC1E48A00ACBB51 /* DayBreak-Hun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayBreak-Hun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A879202D2EC1E48E00ACBB51 /* DayBreak-HunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayBreak-HunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87920372EC1E48E00ACBB51 /* DayBreak-HunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayBreak-HunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +93,7 @@
 		A879200E2EC1E48A00ACBB51 = {
 			isa = PBXGroup;
 			children = (
+				A8232F502EC67FF700CE0C28 /* README.md */,
 				A87920192EC1E48A00ACBB51 /* DayBreak-Hun */,
 				A87920302EC1E48E00ACBB51 /* DayBreak-HunTests */,
 				A879203A2EC1E48E00ACBB51 /* DayBreak-HunUITests */,
@@ -228,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8232F512EC67FFE00CE0C28 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,7 @@
 				DEVELOPMENT_TEAM = FW78AJZNQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DayBreak-Hun/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,6 +332,7 @@
 				DEVELOPMENT_TEAM = FW78AJZNQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DayBreak-Hun/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
