@@ -1,9 +1,7 @@
 ![Logo](DayBreak-Hun/HRRLabLogo.png)
 # Daybreak-Hun Application
 
-![Logo](DayBreak-Hun/icon.png)
-
-## maintainer : Simon Kim (990106ksw@seoultech.ac.kr)
+### maintainer : Simon Kim (990106ksw@seoultech.ac.kr)
 
 ### Prebuild environment
 * OS  (Minimum developments ios 16.6)
