@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A879202E2EC1E48E00ACBB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A879200F2EC1E48A00ACBB51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87920162EC1E48A00ACBB51;
+			remoteInfo = "DayBreak-Hun";
+		};
+		A87920382EC1E48E00ACBB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A879200F2EC1E48A00ACBB51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87920162EC1E48A00ACBB51;
+			remoteInfo = "DayBreak-Hun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87920172EC1E48A00ACBB51 /* DayBreak-Hun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayBreak-Hun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A879202D2EC1E48E00ACBB51 /* DayBreak-HunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayBreak-HunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87920372EC1E48E00ACBB51 /* DayBreak-HunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayBreak-HunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A879203F2EC1E48E00ACBB51 /* Exceptions for "DayBreak-Hun" folder in "DayBreak-Hun" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A87920162EC1E48A00ACBB51 /* DayBreak-Hun */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A87920192EC1E48A00ACBB51 /* DayBreak-Hun */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A879203F2EC1E48E00ACBB51 /* Exceptions for "DayBreak-Hun" folder in "DayBreak-Hun" target */,
+			);
+			path = "DayBreak-Hun";
+			sourceTree = "<group>";
+		};
+		A87920302EC1E48E00ACBB51 /* DayBreak-HunTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DayBreak-HunTests";
+			sourceTree = "<group>";
+		};
+		A879203A2EC1E48E00ACBB51 /* DayBreak-HunUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DayBreak-HunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87920142EC1E48A00ACBB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A879202A2EC1E48E00ACBB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87920342EC1E48E00ACBB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A879200E2EC1E48A00ACBB51 = {
+			isa = PBXGroup;
+			children = (
+				A87920192EC1E48A00ACBB51 /* DayBreak-Hun */,
+				A87920302EC1E48E00ACBB51 /* DayBreak-HunTests */,
+				A879203A2EC1E48E00ACBB51 /* DayBreak-HunUITests */,
+				A87920182EC1E48A00ACBB51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87920182EC1E48A00ACBB51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87920172EC1E48A00ACBB51 /* DayBreak-Hun.app */,
+				A879202D2EC1E48E00ACBB51 /* DayBreak-HunTests.xctest */,
+				A87920372EC1E48E00ACBB51 /* DayBreak-HunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87920162EC1E48A00ACBB51 /* DayBreak-Hun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87920402EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-Hun" */;
+			buildPhases = (
+				A87920132EC1E48A00ACBB51 /* Sources */,
+				A87920142EC1E48A00ACBB51 /* Frameworks */,
+				A87920152EC1E48A00ACBB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A87920192EC1E48A00ACBB51 /* DayBreak-Hun */,
+			);
+			name = "DayBreak-Hun";
+			packageProductDependencies = (
+			);
+			productName = "DayBreak-Hun";
+			productReference = A87920172EC1E48A00ACBB51 /* DayBreak-Hun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A879202C2EC1E48E00ACBB51 /* DayBreak-HunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87920452EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-HunTests" */;
+			buildPhases = (
+				A87920292EC1E48E00ACBB51 /* Sources */,
+				A879202A2EC1E48E00ACBB51 /* Frameworks */,
+				A879202B2EC1E48E00ACBB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A879202F2EC1E48E00ACBB51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A87920302EC1E48E00ACBB51 /* DayBreak-HunTests */,
+			);
+			name = "DayBreak-HunTests";
+			packageProductDependencies = (
+			);
+			productName = "DayBreak-HunTests";
+			productReference = A879202D2EC1E48E00ACBB51 /* DayBreak-HunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87920362EC1E48E00ACBB51 /* DayBreak-HunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87920482EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-HunUITests" */;
+			buildPhases = (
+				A87920332EC1E48E00ACBB51 /* Sources */,
+				A87920342EC1E48E00ACBB51 /* Frameworks */,
+				A87920352EC1E48E00ACBB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87920392EC1E48E00ACBB51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A879203A2EC1E48E00ACBB51 /* DayBreak-HunUITests */,
+			);
+			name = "DayBreak-HunUITests";
+			packageProductDependencies = (
+			);
+			productName = "DayBreak-HunUITests";
+			productReference = A87920372EC1E48E00ACBB51 /* DayBreak-HunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A879200F2EC1E48A00ACBB51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A87920162EC1E48A00ACBB51 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A879202C2EC1E48E00ACBB51 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A87920162EC1E48A00ACBB51;
+					};
+					A87920362EC1E48E00ACBB51 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A87920162EC1E48A00ACBB51;
+					};
+				};
+			};
+			buildConfigurationList = A87920122EC1E48A00ACBB51 /* Build configuration list for PBXProject "DayBreak-Hun" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A879200E2EC1E48A00ACBB51;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A8F1545C2EC1EC7C00D72B91 /* XCRemoteSwiftPackageReference "Sliders-SwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A87920182EC1E48A00ACBB51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87920162EC1E48A00ACBB51 /* DayBreak-Hun */,
+				A879202C2EC1E48E00ACBB51 /* DayBreak-HunTests */,
+				A87920362EC1E48E00ACBB51 /* DayBreak-HunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87920152EC1E48A00ACBB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A879202B2EC1E48E00ACBB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87920352EC1E48E00ACBB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87920132EC1E48A00ACBB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87920292EC1E48E00ACBB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87920332EC1E48E00ACBB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A879202F2EC1E48E00ACBB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87920162EC1E48A00ACBB51 /* DayBreak-Hun */;
+			targetProxy = A879202E2EC1E48E00ACBB51 /* PBXContainerItemProxy */;
+		};
+		A87920392EC1E48E00ACBB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87920162EC1E48A00ACBB51 /* DayBreak-Hun */;
+			targetProxy = A87920382EC1E48E00ACBB51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A87920412EC1E48E00ACBB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DayBreak-Hun/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-Hun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87920422EC1E48E00ACBB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DayBreak-Hun/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-Hun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87920432EC1E48E00ACBB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A87920442EC1E48E00ACBB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87920462EC1E48E00ACBB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-HunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayBreak-Hun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayBreak-Hun";
+			};
+			name = Debug;
+		};
+		A87920472EC1E48E00ACBB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-HunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayBreak-Hun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayBreak-Hun";
+			};
+			name = Release;
+		};
+		A87920492EC1E48E00ACBB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-HunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DayBreak-Hun";
+			};
+			name = Debug;
+		};
+		A879204A2EC1E48E00ACBB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW78AJZNQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrrlab.DayBreak-HunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DayBreak-Hun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87920122EC1E48A00ACBB51 /* Build configuration list for PBXProject "DayBreak-Hun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87920432EC1E48E00ACBB51 /* Debug */,
+				A87920442EC1E48E00ACBB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87920402EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-Hun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87920412EC1E48E00ACBB51 /* Debug */,
+				A87920422EC1E48E00ACBB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87920452EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-HunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87920462EC1E48E00ACBB51 /* Debug */,
+				A87920472EC1E48E00ACBB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87920482EC1E48E00ACBB51 /* Build configuration list for PBXNativeTarget "DayBreak-HunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87920492EC1E48E00ACBB51 /* Debug */,
+				A879204A2EC1E48E00ACBB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8F1545C2EC1EC7C00D72B91 /* XCRemoteSwiftPackageReference "Sliders-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kieranb662/Sliders-SwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = A879200F2EC1E48A00ACBB51 /* Project object */;
+}
